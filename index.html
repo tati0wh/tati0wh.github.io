@@ -19,11 +19,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        flex: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+        flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; /* Alinha o conteúdo ao início */
-        position: relative; /* Permite o posicionamento absoluto do footer */
+        justify-content: flex-start;
+        position: relative;
     }
     .titulo img {
         max-width: 100%;
@@ -32,7 +32,7 @@
     .imagem {
         position: relative;
         text-align: center;
-        margin-bottom: 20px; /* Espaçamento entre a imagem e o rodapé */
+        margin-bottom: 20px;
     }
     .imagem img {
         max-width: 100%;
@@ -42,7 +42,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+        flex: 1;
     }
     .overlay-container {
         position: absolute;
@@ -50,12 +50,22 @@
         left: 0;
         width: 100%;
         height: 100%;
-        pointer-events: none; /* Permite que os cliques passem através do contêiner */
+        pointer-events: none;
     }
     .overlay-container a {
         position: absolute;
-        pointer-events: auto; /* Permite cliques nos links */
+        pointer-events: auto;
     }
+    .melancia img { width: 6vw; }
+    .limao img { width: 4vw; }
+    .pitaia img { width: 5vw; }
+    .laranja img { width: 4vw; }
+    .morango img { width: 4vw; }
+    .abacaxi img { width: 7vw; }
+    .uva img { width: 3vw; }
+    .pessego img { width: 4vw; }
+    .coco img { width: 6vw; }
+
     /* Exemplo de posicionamento das imagens sobrepostas */
     .overlay-container a:nth-child(1) { top: 23%; left: 36%; }
     .overlay-container a:nth-child(2) { top: 26%; left: 44%; }
@@ -66,33 +76,7 @@
     .overlay-container a:nth-child(7) { top: 45%; left: 48%; }
     .overlay-container a:nth-child(8) { top: 45%; left: 54%; }
     .overlay-container a:nth-child(9) { top: 42%; left: 61%; }
-    .melancia img {
-        max-width: 90px; 
-    }
-    .limao img {
-        max-width: 65px; 
-    }
-    .pitaia img {
-        max-width: 75px;
-    }
-    .laranja img {
-        max-width: 65px; 
-    }
-    .morango img {
-        max-width: 60px; 
-    }
-    .abacaxi img {
-        max-width: 95px; 
-    }
-    .uva img {
-        max-width: 53px; 
-    }
-    .pessego img {
-        max-width: 63px; 
-    }
-    .coco img {
-        max-width: 90px; 
-    }
+    
     footer {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
@@ -101,7 +85,6 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        margin-top: -180px;
     }
     footer p {
         margin: 5px 0;
@@ -154,11 +137,12 @@
             </div>
         </div>
         <footer>
-            <p>&copy; Feito com ❤️ por <a href="www.linkedin.com/in/tatiana-hanada">Tatiana Hanada</a> 2024.</p>
+            <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
         </footer>
     </div>
 </body>
 </html>
+
 
 
 
