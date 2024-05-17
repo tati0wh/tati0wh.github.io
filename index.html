@@ -4,48 +4,161 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tatiana Hanada</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <style>
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Poppins', sans-serif; 
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     .fundo {
         background-image: url('https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/2d49646b8cb37feffee9ca58793021c6bd5c0d94/jardim_transparente.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-    }
-    .titulo {
-        text-align: center;
+        flex: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Alinha o conteúdo ao início */
+        position: relative; /* Permite o posicionamento absoluto do footer */
     }
     .titulo img {
         max-width: 100%;
         height: auto;
     }
     .imagem {
+        position: relative;
         text-align: center;
+        margin-bottom: 20px; /* Espaçamento entre a imagem e o rodapé */
     }
     .imagem img {
         max-width: 100%;
         height: auto;
     }
+    .imagens-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+    }
+    .overlay-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none; /* Permite que os cliques passem através do contêiner */
+    }
+    .overlay-container a {
+        position: absolute;
+        pointer-events: auto; /* Permite cliques nos links */
+    }
+    /* Exemplo de posicionamento das imagens sobrepostas */
+    .overlay-container a:nth-child(1) { top: 23%; left: 36%; }
+    .overlay-container a:nth-child(2) { top: 26%; left: 44%; }
+    .overlay-container a:nth-child(3) { top: 25%; left: 51%; }
+    .overlay-container a:nth-child(4) { top: 26%; left: 58%; }
+    .overlay-container a:nth-child(5) { top: 45%; left: 33%; }
+    .overlay-container a:nth-child(6) { top: 42%; left: 39%; }
+    .overlay-container a:nth-child(7) { top: 45%; left: 48%; }
+    .overlay-container a:nth-child(8) { top: 45%; left: 54%; }
+    .overlay-container a:nth-child(9) { top: 42%; left: 61%; }
+    .melancia img {
+        max-width: 90px; 
+    }
+    .limao img {
+        max-width: 65px; 
+    }
+    .pitaia img {
+        max-width: 75px;
+    }
+    .laranja img {
+        max-width: 65px; 
+    }
+    .morango img {
+        max-width: 60px; 
+    }
+    .abacaxi img {
+        max-width: 95px; 
+    }
+    .uva img {
+        max-width: 53px; 
+    }
+    .pessego img {
+        max-width: 63px; 
+    }
+    .coco img {
+        max-width: 90px; 
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-top: -180px;
+    }
+    footer p {
+        margin: 5px 0;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+    }
 </style>
 </head>
 <body>
     <div class="fundo">
-        <div class="titulo">
-            <img src="https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/main/titulo%20(1).svg" alt="Título do Site">
+        <div class="imagens-container">
+            <div class="titulo">
+                <img src="imagens/titulo-_1_.png" alt="Título do Site" id="imagem_de_fundo">
+            </div>
             <div class="imagem">
-                <img src="https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/726efdaeaa4ff42e00fdd432058b0db3662b2092/hortifruti.svg" alt="Descrição da Imagem">
+                <img src="imagens/hortifruti.png" alt="Descrição da Imagem">
+                <div class="overlay-container">
+                    <a href="Melancia.html" class="melancia" title="Clique para ver mais sobre melancia">
+                        <img src="imagens/Melancia.svg" alt="Melancia">
+                    </a>
+                    <a href="Limao.html" class="limao" title="Clique para ver mais sobre limão">
+                        <img src="imagens/Limao.svg" alt="Limao">
+                    </a>
+                    <a href="Pitaia.html" class="pitaia" title="Clique para ver mais sobre pitaia">
+                        <img src="imagens/Pitaia.svg" alt="Pitaia">
+                    </a>
+                    <a href="Laranja.html" class="laranja" title="Clique para ver mais sobre laranja">
+                        <img src="imagens/Laranja.svg" alt="Laranja">
+                    </a>
+                    <a href="Morango.html" class="morango" title="Clique para ver mais sobre morango">
+                        <img src="imagens/Morango.svg" alt="Morango">
+                    </a>
+                    <a href="Abacaxi.html" class="abacaxi" title="Clique para ver mais sobre abacaxi">
+                        <img src="imagens/Abacaxi.svg" alt="Abacaxi">
+                    </a>
+                    <a href="Uva.html" class="uva" title="Clique para ver mais sobre uva">
+                        <img src="imagens/Uva.svg" alt="Uva">
+                    </a>
+                    <a href="Pessego.html" class="pessego" title="Clique para ver mais sobre pêssego">
+                        <img src="imagens/Pessego.svg" alt="Pessego">
+                    </a>
+                    <a href="Coco.html" class="coco" title="Clique para ver mais sobre coco">
+                        <img src="imagens/Coco.svg" alt="Coco">
+                    </a>
+                </div>
+                
             </div>
         </div>
+        <footer>
+            <p>&copy; Feito com ❤️ por <a href="www.linkedin.com/in/tatiana-hanada">Tatiana Hanada</a> 2024.</p>
+        </footer>
     </div>
 </body>
 </html>
-
-
-
-
 
 
 
