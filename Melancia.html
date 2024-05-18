@@ -1,88 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Melancia</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #9B4626; 
-        color: #ffffff; 
-        font-family: 'Poppins', sans-serif;;
-    }
-    .titulo {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .titulo img {
-        width: 50%; /* Ajuste a largura conforme necessário */
-        height: auto;
-        display: block;
-        margin: 0 auto; 
-        margin-bottom: -200px; /* Espaçamento entre as duas imagens */
-    }
-    .imagem-abaixo {
-        text-align: center;
-    }
-    .imagem-abaixo img {
-        width: 75%; 
-        height: auto;
-        display: block;
-        margin: 0 auto; /* Centraliza a imagem */
-        margin-bottom: 100px;
-    }
-    .corpo-texto {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .corpo-texto h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .corpo-texto p {
-        text-align: justify;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
-    .bloco-latex {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-    .bloco-codigo {
-        background-color: #222;
-        color: #fff;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melancia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #9B4626; 
+            color: #ffffff; 
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .titulo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .titulo img {
+            width: 100%; 
+            height: auto;
+            display: block;
+            margin: 0 auto; 
+            margin-bottom: -500px; 
+        }
+        .corpo-texto {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #9B4626; 
+            flex: 1;
+        }
+        .corpo-texto h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .corpo-texto p {
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .corpo-texto img {
+            max-width: 50%;
+            height: auto;
+            margin: 10px;
+        }
+        .esquerda {
+            float: left;
+            margin-right: 15px;
+        }
+        .direita {
+            float: right;
+            margin-left: 15px;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 5px 0;
+            color: #333;
+        }
+        footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="titulo">
-        <img src="https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/64e43e03b9f179add112c7312d7d41a5e6b062bf/melancia.svg" alt="Título do Site">
-    </div>
-    <div class="imagem-abaixo">
-        <img src="imagens\otimização.png" alt="Otimização em Machine Learning">
+        <img src="https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/64e43e03b9f179add112c7312d7d41a5e6b062bf/melancia.svg" alt="Título do Site">     
     </div>
     <div class="corpo-texto">
-        <p>A abordagem estatística para análise e resumo de informações contidas em um conjunto de dados consiste na suposição de que existe um mecanismo estocástico gerador do processo em análise (Bonat et al., 2012).</p>
-        <p>Estocástico: Descreve processos ou variáveis aleatórias que possuem uma componente de incerteza ou aleatoriedade, mas que pode ser modelado
-            probabilisticamente. Algumas características de processos estocásticos incluem:</p>
-        <ul>
-            <li>Aleatoriedade: Influenciados por fatores aleatórios ou probabilísticos.</li>
-            <li>Incerteza: Resultados de um processo estocástico são incertos e podem variar de uma realização para outra.</li>
-            <li>Modelagem probabilística: São modelados usando conceitos probabilísticos, como distribuições de probabilidade, médias, variâncias, etc.</li>
-        </ul>
-        <h2>Regressão linear</h2>     
-        
+        <h2>Características</h2>
+        <img src="https://s2-globorural.glbimg.com/z5bTlHlvU3QBS_lfljaJr66a2bg=/0x0:1920x1080/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2023/B/f/guA0GnSjCtY5X8YAciIA/beneficios-da-melancia-fruta-hidratacao.png" alt="Melancias" class="esquerda">
+        <p>Originária da África Central, a melancia é uma fruta refrescante e nutritiva apreciada há milênios. Registros históricos indicam que os antigos egípcios já cultivavam melancias domesticamente. Composta por cerca de 90% de água, a melancia é uma excelente opção para hidratação nos dias quentes, além de ser rica em açúcares, fibras, vitaminas e minerais.</p>
+        <p>Um nutriente importante presente na melancia é o licopeno, um carotenoide responsável pela cor avermelhada da fruta, que atua como antioxidante no corpo, combatendo os radicais livres. Além disso, a melancia possui baixo valor calórico, com apenas 30 kcal por 100g.</p>
     </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://doutorjairo.com.br/media/_versions/istock-_mae_e_filha_comendo_melancia_widelg.jpg" alt="Benefícios da Melancia" class="direita">
+        <p>A melancia é uma ótima aliada na hidratação, devido ao seu alto conteúdo de água. Ela também é rica em vitaminas A e C, que são importantes para a saúde da pele e do sistema imunológico. Além disso, a melancia contém antioxidantes que ajudam a prevenir danos celulares causados pelos radicais livres.</p>
+        <p>O consumo regular de melancia pode contribuir para a saúde cardiovascular, ajudando a reduzir a pressão arterial e melhorar a circulação sanguínea. A presença de fibras também auxilia na digestão e na manutenção de um trato intestinal saudável.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://watermelontimes.com/wp-content/uploads/2020/07/triploid-variety-watermelons.jpg" alt="Curiosidades sobre Melancia" class="esquerda">
+        <p>A melancia é uma fruta extremamente versátil, podendo ser consumida de diversas formas: fresca, em sucos, saladas e até em pratos salgados. Existem mais de 1.200 variedades de melancia, variando em tamanho, cor e sabor.</p>
+        <p>Na China e no Japão, é comum encontrar melancias quadradas, que são cultivadas em caixas para adquirir essa forma peculiar. Além disso, cada parte da melancia é comestível, incluindo as sementes e a casca, que podem ser usadas em receitas variadas.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>
+
+
 
 
 
