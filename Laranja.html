@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Laranja</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,5 +77,20 @@
     <div class="titulo">
         <img src="imagens\laranja_nome.png" alt="Laranja">
     </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://minhasaude.proteste.org.br/wp-content/webp-express/webp-images/uploads/2022/10/muitas-laranjas.png.webp" alt="Benefícios da Laranja" class="direita">
+        <p>A laranja é conhecida por seu alto teor de vitamina C, essencial para a saúde do sistema imunológico, da pele e dos ossos. Seus antioxidantes ajudam a combater os radicais livres, prevenindo o envelhecimento precoce e doenças crônicas.</p>
+        <p>O consumo regular de laranja contribui para a saúde cardiovascular, ajudando a regular a pressão arterial e a reduzir o colesterol. As fibras presentes na fruta também promovem a digestão e a saúde intestinal.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://alimenttar.com.br/wp-content/uploads/2018/12/crianca-vitamina-c-400x269.jpg" alt="Curiosidades sobre Laranja" class="esquerda">
+        <p>A laranja é uma das frutas mais populares no mundo, sendo amplamente consumida em diversas culturas. Na culinária, além do consumo in natura e em sucos, a laranja é usada em molhos, sobremesas e até pratos salgados.</p>
+        <p>Uma curiosidade interessante é que a laranja já foi considerada uma fruta de luxo e status, sendo presenteada em ocasiões especiais na antiguidade. Suas flores, conhecidas como flor de laranjeira, são muito utilizadas em perfumaria devido ao seu aroma delicado.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>

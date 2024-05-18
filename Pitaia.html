@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Pitaia</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,6 +77,28 @@
     <div class="titulo">
         <img src="https://raw.githubusercontent.com/tati0wh/tati0wh.github.io/dd7f038fc944f44be5e8d0017c8233cc05ac4f75/pitaia.svg" alt="Título do Site">
     </div>
+    <div class="corpo-texto">
+        <h2>Características</h2>
+        <img src="https://agro.estadao.com.br/wp-content/uploads/2022/12/pitaia-1.jpg" alt="Pitaia" class="esquerda">
+        <p>A pitaia, também conhecida como fruta do dragão, é originária da América Central e é famosa pela sua aparência exótica e cores vibrantes. Existem variedades com casca rosa e polpa branca, vermelha ou amarela. A pitaia é rica em fibras, antioxidantes, vitaminas C e B, além de minerais como ferro e cálcio.</p>
+        <p>A pitaia é uma fruta de baixo teor calórico, com cerca de 50 kcal por 100g, e possui um sabor doce e suave, que lembra uma mistura de kiwi e pera. Pode ser consumida fresca, em sucos, saladas de frutas e sobremesas.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1IGCYP3ojC4_32GULWOpo3HAlBeSAeOGLudfj5lkL0fsuFQP3f1qakxHtzvFTSbFwRh0hBuOrFouFWlEijbVi7uUqr5mgLgL9j-AwqCdKPzVNquh6biflE3Gxv4Bl7Jk0Sb2uWqvngvM/s1600/Hylocereus_undatus.jpg" alt="Benefícios da Pitaia" class="direita">
+        <p>A pitaia é uma excelente aliada na hidratação devido ao seu alto conteúdo de água. Rica em fibras, ajuda na digestão e na regulação do trânsito intestinal, além de promover a saciedade, sendo uma ótima opção para quem deseja controlar o peso.</p>
+        <p>Os antioxidantes presentes na pitaia ajudam a combater os radicais livres, prevenindo o envelhecimento precoce e diversas doenças. A vitamina C fortalece o sistema imunológico, enquanto as vitaminas do complexo B são importantes para o metabolismo energético.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://img.freepik.com/fotos-gratis/linda-garota-encaracolada-comendo-pitaya-com-prazer-foto-interna-de-mulher-caucasiana-de-cabelos-louros-desfrutando-de-frutas-exoticas_197531-9128.jpg?t=st=1716040579~exp=1716044179~hmac=b074dcf35fe1d9e2696661a0ae29030b3994dc9ab9b5d37b508f7dc954b349ed&w=996" alt="Curiosidades sobre Pitaia" class="esquerda">
+        <p>A pitaia é uma fruta que cresce em cactos e suas flores são noturnas, abrindo-se apenas à noite. Outra curiosidade interessante é que a pitaia tem sido cada vez mais utilizada em cosméticos naturais devido às suas propriedades hidratantes e antioxidantes.</p>
+        <p>Na culinária, além de ser consumida fresca, a pitaia pode ser usada para fazer geleias, sorvetes e até coquetéis. A casca também pode ser utilizada em decorações devido à sua aparência única e chamativa.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
+
 </body>
 </html>
 

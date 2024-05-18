@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Côco verde</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,5 +77,20 @@
     <div class="titulo">
         <img src="imagens\coco_nome.png" alt="Côco">
     </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://www.es.gov.br/Media/PortalES/_Profiles/c4d8c6e6/2b07643f/coco%20ceasa%202_Ceasa.jpg?v=637784236973374720" alt="Benefícios do Coco Verde" class="direita">
+        <p>O coco verde é uma excelente fonte de hidratação, especialmente em climas quentes. Sua água contém eletrólitos essenciais que ajudam a manter o equilíbrio hídrico e a prevenir a desidratação.</p>
+        <p>A polpa do coco verde é rica em fibras, que ajudam na digestão e na regulação do trânsito intestinal. Além disso, o consumo de coco verde pode contribuir para a saúde cardiovascular, devido ao seu conteúdo de ácidos graxos saudáveis.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://blog-obahortifruti.redeoba.com.br/wp-content/uploads/2021/02/Agua_Coco_Mobile_800x475px.jpg" alt="Curiosidades sobre Coco Verde" class="esquerda">
+        <p>O coco verde é um símbolo de regiões tropicais e é amplamente consumido em praias e locais turísticos. Uma curiosidade interessante é que a água de coco é tão pura que já foi utilizada como substituto do soro fisiológico em emergências.</p>
+        <p>Na culinária, a água de coco é usada em bebidas e sobremesas, enquanto a polpa pode ser adicionada a saladas, smoothies e pratos tradicionais. O coco verde também é valorizado por suas propriedades hidratantes na indústria de cosméticos.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>

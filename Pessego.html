@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Pêssego</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,5 +77,20 @@
     <div class="titulo">
         <img src="imagens\pessego_nome.png" alt="Pessego">
     </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://conteudo.imguol.com.br/c/entretenimento/38/2020/03/30/pessegos-1585605669655_v2_900x506.jpg.webp" alt="Benefícios do Pêssego" class="direita">
+        <p>O pêssego é uma excelente fonte de vitamina C, que fortalece o sistema imunológico e promove a saúde da pele. Suas fibras ajudam na digestão e na regulação do trânsito intestinal, além de promover a saciedade, sendo uma ótima opção para quem deseja controlar o peso.</p>
+        <p>Os antioxidantes presentes no pêssego ajudam a combater os radicais livres, prevenindo o envelhecimento precoce e diversas doenças. A vitamina A é importante para a saúde dos olhos e da pele, enquanto o potássio ajuda a regular a pressão arterial.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://s2-g1.glbimg.com/F1Ffg1r-xuYTx_bxcEPZ7hYGGeM=/0x0:1920x1080/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/4/QEDeNuTBiG4hMJeqk8Yg/nc-pessego-colheita-240923.transfer5.jpg" alt="Curiosidades sobre Pêssego" class="esquerda">
+        <p>O pêssego é uma fruta altamente valorizada na cultura chinesa, simbolizando longevidade e imortalidade. Existem diversas variedades de pêssego, variando em tamanho, cor e sabor.</p>
+        <p>Na culinária, o pêssego é amplamente utilizado em sobremesas, como tortas, sorvetes e geleias. Além disso, pode ser combinado com ingredientes salgados, como queijos e carnes, criando pratos deliciosos e saudáveis.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>

@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Morango</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,5 +77,26 @@
     <div class="titulo">
         <img src="imagens\morango_nome.png" alt="Morango">
     </div>
+    <div class="corpo-texto">
+        <h2>Características</h2>
+        <img src="https://conteudo.imguol.com.br/c/entretenimento/78/2018/02/28/morango-1519823853148_v2_900x506.jpg.webp" alt="Morango" class="esquerda">
+        <p>O morango é uma fruta vermelha e suculenta, amplamente cultivada em regiões temperadas. Originário da Europa, o morango é apreciado por seu sabor doce e levemente ácido. É rico em vitamina C, manganês, folato e antioxidantes, além de conter fibras dietéticas.</p>
+        <p>Com cerca de 32 kcal por 100g, o morango é uma opção nutritiva e de baixo teor calórico. Pode ser consumido fresco, em sucos, sobremesas, saladas e até em pratos salgados.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://images.tcdn.com.br/img/img_prod/1184215/noticia_178537055643eab9db7724.jpg" alt="Benefícios do Morango" class="direita">
+        <p>O morango é uma excelente fonte de vitamina C, que fortalece o sistema imunológico e promove a saúde da pele. Seus antioxidantes, como os flavonoides, ajudam a combater os radicais livres e a prevenir doenças crônicas.</p>
+        <p>O consumo regular de morangos pode ajudar a melhorar a saúde cardiovascular, reduzindo a pressão arterial e o colesterol. As fibras presentes na fruta promovem a digestão e a saúde intestinal, além de auxiliar no controle do peso.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2023/08/Valfredo-Pereirade-Oliveira-1.jpg" alt="Curiosidades sobre Morango" class="esquerda">
+        <p>O morango é uma fruta que não pertence à família das frutas verdadeiras, pois suas sementes estão do lado de fora. Existem diversas variedades de morangos, variando em tamanho, cor e sabor.</p>
+        <p>Na culinária, o morango é amplamente utilizado em sobremesas, como tortas, sorvetes e geleias. Além disso, pode ser combinado com ingredientes salgados, como queijos e saladas, criando pratos deliciosos e saudáveis.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>

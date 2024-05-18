@@ -3,21 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Página</title>
+<title>Abacaxi</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         background-color: #9B4626; 
         color: #ffffff; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
     .titulo img {
         width: 100%; 
-        height: auto; 
-        display: block; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: -500px; 
+    }
+    .corpo-texto {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #9B4626; 
+        flex: 1;
+    }
+    .corpo-texto h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .corpo-texto p {
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .corpo-texto img {
+        max-width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+    .esquerda {
+        float: left;
+        margin-right: 15px;
+    }
+    .direita {
+        float: right;
+        margin-left: 15px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    footer p {
+        margin: 5px 0;
+        color: #333;
+    }
+    footer a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 </head>
@@ -25,5 +77,20 @@
     <div class="titulo">
         <img src="imagens\abacaxi_nome.png" alt="Abacaxi">
     </div>
+    <div class="corpo-texto">
+        <h2>Benefícios para a Saúde</h2>
+        <img src="https://files.agro20.com.br/uploads/2019/08/benefícios-do-abacaxi-1-1024x576.jpg" alt="Benefícios do Abacaxi" class="direita">
+        <p>O abacaxi é uma excelente fonte de vitamina C, que fortalece o sistema imunológico e promove a saúde da pele. Seus antioxidantes ajudam a combater os radicais livres, prevenindo o envelhecimento precoce e doenças crônicas.</p>
+        <p>O consumo regular de abacaxi pode ajudar na digestão devido à presença de bromelina, uma enzima que auxilia na quebra de proteínas. Além disso, o abacaxi é conhecido por suas propriedades anti-inflamatórias e diuréticas.</p>
+    </div>
+    <div class="corpo-texto">
+        <h2>Curiosidades</h2>
+        <img src="https://imagens-cdn.canalrural.com.br/2024/04/Emdagro-e-parceiros-buscam-solucoes-para-combate-a-fusariose-no-cultivo-de-abacaxi.jpg" alt="Curiosidades sobre Abacaxi" class="esquerda">
+        <p>O abacaxi era considerado uma fruta exótica e de luxo na Europa do século XVII, sendo frequentemente usado como símbolo de hospitalidade e riqueza. Sua casca e folhas também possuem usos, como a produção de fibras têxteis e até papel.</p>
+        <p>Na culinária, o abacaxi é versátil, podendo ser consumido fresco, grelhado, em sucos, sobremesas e até em pratos salgados, como pizzas e carnes assadas. Sua capacidade de amaciar carnes é uma característica valorizada na gastronomia.</p>
+    </div>
+    <footer>
+        <p>&copy; Feito com ❤️ por <a href="http://www.linkedin.com/in/tatiana-hanada" target="_blank">Tatiana Hanada</a> 2024.</p>
+    </footer>
 </body>
 </html>
